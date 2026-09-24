@@ -1,0 +1,12 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+*.log
+.git/
+.DS_Store
+coverage/
+# 构建时会重新生成，避免本地产物污染镜像
+packages/web/dist/
+packages/server/dist/
+packages/core/dist/

@@ -1,0 +1,19 @@
+{
+  "name": "@fem2d/web",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fem2d/core": "*"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.19",
+    "svelte-check": "^4.0.4",
+    "vite": "^5.4.8"
+  }
+}
